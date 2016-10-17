@@ -1,0 +1,64 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Curso Bootstrap3 - DevMedia</title>
+        <!-- define viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.8">
+        
+        <meta charset="utf-8">
+        
+        <!-- adicionar CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <link href="css/estilo.css" rel="stylesheet" media="all">
+              
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                    <h1>Janela Modais</h1>
+                        
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal01">Abrir janela modal</button>
+                        
+                        <!--- janela modal -->
+                        
+                        <div class="modal fade" id="modal01" role="dialog" tabindex="-1" aria-hidden="true">
+                          <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                              <div class="modal header">
+                                  
+                                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden>&times;</span><span class="sr-only">Fechar janela modal</span></button>
+                                  
+                                  <h4 class="modal-title">Janela Modal</h4>             
+                                </div>
+                                
+                                <div class="modal-body">
+                                <p>Conteúdo Janela Modal</p>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                                    <button class="btn btn-prmary">Outro Botão</button>
+                                
+                                </div>
+                                
+                              </div>
+                            </div>
+                        </div>
+                        
+                        <!--- janela modal -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       <script src="js/jquery-3.0.0.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+       <script src="js/main.js"></script>
+       <script src="js/bootstrap.minv2.3.2.js"></script>
+    </body>
+
+</html>
