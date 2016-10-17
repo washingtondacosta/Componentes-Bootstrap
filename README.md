@@ -1,2 +1,2 @@
 # Componentes-Bootstrap
-Elemntos Bootstrap 3
+Elementos Bootstrap 3
